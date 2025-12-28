@@ -4,7 +4,7 @@ metadata:
   name: headlamp
   namespace: headlamp
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/app-root: /headlamp/
 spec:
   ingressClassName: nginx
   rules:
